@@ -1,0 +1,53 @@
+
+
+.item{
+    position: relative;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+}
+.item-caption{
+    position: absolute;
+    bottom: 20px;
+    width: 80%;
+   
+}
+
+img{
+    height:400px;
+}
+
+
+.popUpDiv{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.319);
+    display:none;
+    justify-content: center;
+   align-items: center;
+}
+.bgChange{
+    width: 50%;
+    height: 80%;
+    background-image: url('../images/5.jpg');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-position: center center;
+    background-size: 100%;
+   
+}
+
+
+i{
+    font-size: 25px;
+}
+
+#close{
+    position: absolute;
+    top: 2px;
+    right: 5px;
+}
